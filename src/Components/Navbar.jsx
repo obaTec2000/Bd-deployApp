@@ -7,12 +7,8 @@ import Notification from "./DropDown/notificationDrop";
 import Dropnav from "./DropDown/drooNav";
 import Search from "./DropDown/Search"
 import Friend from "./DropDown/friend";
-import {
-  ChatIcon,
-} from "@heroicons/react/solid";
 import { Icon } from "@iconify/react";
 import { SearchIcon } from "@heroicons/react/outline";
-import HeaderIcon from "../Components/HeaderIcon";
 
 
 export default function Homepage() {
@@ -107,13 +103,12 @@ export default function Homepage() {
 
 
         <div className="flex space-x-6 md:space-x-5">
-          <HeaderIcon active Icon={ChatIcon} />
+          
           <div>
             <img
               className=" w-5 mt-3"
               src={notificationIcon}
               alt="notificationIcon"
-              aria-expanded={isNotification}
               onClick={toggleNotification}
             />
 
@@ -135,8 +130,6 @@ export default function Homepage() {
               className="inline-flex w-full text-white justify-center gap-x-1.5 rounded-md px-3 py-2 h-6 mt-3 ring-inset  "
               src={arrowDown}
               alt="arrowDown"
-              aria-expanded={isOpen}
-              aria-haspopup="true"
               onClick={toggleMenu}
             />
 

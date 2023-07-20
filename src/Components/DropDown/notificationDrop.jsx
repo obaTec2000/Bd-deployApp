@@ -85,7 +85,7 @@ const Notification = () => {
           </svg>
         </div>
         <div className="flex mt-5 mx-5">
-          <img src="images/p2.png" alt="image" className="w-16 mx-3" />
+          <img src="images/p2.png" alt="pix" className="w-16 mx-3" />
 
           <svg
             width="286"
@@ -128,7 +128,7 @@ const Notification = () => {
         </div>
         <h1 className="text-white text-xl mt-3 mx-5">Earlier/Old</h1>
         <div className="flex mt-5 mx-5">
-          <img src="images/p2.png" className="w-16 mx-3" />
+          <img src="images/p2.png" alt="pro" className="w-16 mx-3" />
 
           <svg
             width="286"

@@ -35,7 +35,7 @@ export default function Login() {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 h-screen w-full font-outfit font-bold">
     <div className="hidden sm:block">
-      <img className="w-full h-screen object-cover bg-cover bg-no-repeat" src="/assests/bgimage.png" />
+      <img className="w-full h-screen object-cover bg-cover bg-no-repeat" alt="cover" src="/assests/bgimage.png" />
     </div>
 
       <div className="bg-black flex flex-col">

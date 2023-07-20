@@ -26,16 +26,15 @@ const LeftSidebar = () => {
     <div className="w-[15rem] justify-between hidden sm:block mx-auto mt-8 text-white">
       <div className="hidden md:flex">
         <div className="h-full hidden xl:flex">
-          <a
-            href="#"
+          <div         
             className="inline-flex items-center bg-zinc-800 justify-center p-1 rounded-lg hover:bg-gray-200 dark:hover:bg-dark-third"
           >
-            <img src={navImage} alt="Profile picture" className="flex w-10" />
+            <img src={navImage} alt="Profile" className="flex w-10" />
             <span className="mx-5 font-outfit font-bold text-xs dark:text-dark-txt">
               Gabriel Jones
               <h1>@gabrieljones</h1>
             </span>
-          </a>
+          </div>
         </div>
       </div>
 
@@ -47,19 +46,19 @@ const LeftSidebar = () => {
         <div className="flex items-center mt-4 ">
           <ul className="">
             <li className="">
-              <a
+              <div
               
                 className="inline-flex items-center justify-between rounded-lg font-bold  dark:hover:bg-dark-third "
               >
                 <img
                   src={profileActive}
-                  alt="Profile picture"
+                  alt="Pixel"
                   className="items-center w-9"
                 />
                 <span className="mx-5 font-outfit text-sm dark:text-dark-txt">
                   Face of BD
                 </span>
-              </a>
+              </div>
             </li>
           </ul>
         </div>
@@ -133,7 +132,7 @@ const LeftSidebar = () => {
         {/* Add your additional content here */}
 
         <div className=" mt-4 flex ">
-          <img src={bdImage} alt="Profile picture" className="w-80 h-32" />
+          <img src={bdImage} alt="pick" className="w-80 h-32" />
         </div>
 
         <div className="items-center mt-4 text-[10px] font-outfit">

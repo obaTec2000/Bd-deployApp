@@ -41,7 +41,7 @@ const RightSidebar = () => {
                   <img
                     src={profile.photo}
                     className="object-cover rounded-full"
-                   alt='Photo'
+                   alt='profile'
                   />
 
                   <div className="flex">

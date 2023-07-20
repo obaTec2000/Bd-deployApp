@@ -20,9 +20,9 @@ export default function Welcome() {
         <h1 class="absolute text-[15px] text-white bottom-16 right-28  ">
           Bridging Communities,
         </h1>
-        <a class="absolute text-[15px] text-white bottom-12 right-8 -translate-x-1/3 ">
+        <div class="absolute text-[15px] text-white bottom-12 right-8 -translate-x-1/3 ">
           Sharing Cultures & Diversity
-        </a>
+        </div>
       </div>
     </div>
   );

@@ -67,7 +67,7 @@ const Post = () => {
       {/* Comment Input */}
       <div className="flex items-center w-full p-3 pt-4">
         <div className="w-8 h-8 shrink-0">
-          <img src={navImage} alt="Image" className="" />
+          <img src={navImage} alt="add" className="" />
         </div>
         <div className="flex bg-[#1C1B19] font-outfit text-sm rounded-full items-center ml-2 w-full">
           <input
