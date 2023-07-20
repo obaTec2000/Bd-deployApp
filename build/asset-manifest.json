@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4874f3d8.css",
+    "main.js": "/static/js/main.d049efe4.js",
+    "static/media/welcomenewpage.png": "/static/media/welcomenewpage.53d11bb21e2ed41375a1.png",
+    "static/media/post1.png": "/static/media/post1.5380a762162447ef9bb2.png",
+    "static/media/bdReals.png": "/static/media/bdReals.7b3804585b2bd243694a.png",
+    "static/media/bdImage.png": "/static/media/bdImage.ca849de02e1c329a6eeb.png",
+    "static/media/bgimage.png": "/static/media/bgimage.19fd8ee9508fb228a4e3.png",
+    "static/media/navImage.png": "/static/media/navImage.c4f2689d92c3a177e39a.png",
+    "static/media/BD_@Farati.png": "/static/media/BD_@Farati.0b9b86363dac4014786c.png",
+    "static/media/BD_@Daniel.png": "/static/media/BD_@Daniel.79e8cc1625bb10fbc3dd.png",
+    "static/media/BD_@Gabriel.png": "/static/media/BD_@Gabriel.ebb3798cbac25f8cf637.png",
+    "static/media/BD_@Samuel.png": "/static/media/BD_@Samuel.2c06e760996965b83e9e.png",
+    "static/media/profile.png": "/static/media/profile.60a7036061c37c2554a4.png",
+    "static/media/bdlogoimage.png": "/static/media/bdlogoimage.4f59497e35eac485c155.png",
+    "index.html": "/index.html",
+    "main.4874f3d8.css.map": "/static/css/main.4874f3d8.css.map",
+    "main.d049efe4.js.map": "/static/js/main.d049efe4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4874f3d8.css",
+    "static/js/main.d049efe4.js"
+  ]
+}

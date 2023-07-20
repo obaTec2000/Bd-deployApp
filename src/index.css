@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+}
+
+main {
+  max-width: '20%';
+}
+
+.title {
+  font-size: 3rem;
+  display: grid;
+  place-items: center;
+}
+
+/* Sidebar */
+.sidebar {
+  background: #0e0d0d;
+  color: white;
+  height: 100vh;
+
+  overflow-y: auto;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  height: 67px;
+  width: 67px;
+  border-right: 4px solid transparent;
+  padding: 15px 10px;
+  gap: 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "outfit";
+  font-weight: bold;
+  background: black;
+  
+}
+
+
+
+.top_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  font-size: 25PX;
+  margin-top:15px
+}
+
+
+.bars {
+  width: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.routes {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  
+  gap: 10px;
+}
+
+.link {
+  display: flex;
+  color: white;
+  gap: 10px;
+  
+  padding: 5px 10px;
+  border-right: 4px solid transparent;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  border-bottom: #fff 0.5px solid;
+}
+
+.link:hover {
+  border-right: 4px solid white;
+  background: rgba(35, 35, 36, 0.815);
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  
+}
+
+.active {
+  border-right: 4px solid white;
+  background: rgba(35, 35, 36, 0.815);
+  
+}
+
+.link_text {
+  white-space: nowrap;
+  font-size: 15px;
+  font-family: "Outfit";
+  font-weight: bold;
+  
+}
+
+.menu {
+  display: flex;
+  color: white;
+
+
+  padding: 5px 10px;
+  border-right: 4px solid transparent;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  justify-content: space-between;
+  border-bottom: #fff 0.5px solid;
+}
+
+.menu_item {
+  display: flex;
+  gap: 10px;
+}
+
+.menu_container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.menu_container .link {
+  padding-left: 20px;
+  border-bottom: #fff 0.5px solid;
+  padding: 10px 10px;
+}
